@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar{
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  height: 7.5vh;
+}
+
+.active {
+  padding: 2rem;
+  background-color: green;
+  color: white;
+  height: 10vh;
+
+}
+.notActive{
+  padding: 1rem;
+  color: white;
+}
+
+.d_flex{
+display: flex;
+
+}
+.pizza{
+  width: 20%;
+  border: 1px solid #ececec;
+  border-radius: 1rem;
+  
+  
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  height: 100px;
+  color:white
+  
+
+}
